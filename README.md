@@ -1,4 +1,4 @@
-# Project Title
+# Project Flask Template
 
 ![Name_project](Flask_Template.png)
 
