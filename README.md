@@ -1,6 +1,6 @@
 # Project Title
 
-![Name_project](Hero_Image_notes.png)
+![Name_project](Flask_Template.png)
 
 One Paragraph of project description goes here
 
