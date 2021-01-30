@@ -9,6 +9,10 @@
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
+    <div>
+        <a href="{{ url_for('home_bp.index')}}">home</a>
+        <a href="{{ url_for('form_sign_in_bp.login') }}">login</a>
+    </div>
     {% block body %}
     
     {% endblock %}

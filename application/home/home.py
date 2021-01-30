@@ -9,6 +9,7 @@ home_bp = Blueprint('home_bp',
 )
 
 @home_bp.route('/', methods=['GET'])
+@home_bp.route('/index')
 def index():
     """ Home page """
     return render_template('index.html')

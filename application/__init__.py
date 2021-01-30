@@ -19,9 +19,11 @@ def create_app():
 
         # Include routes
         from .home import home
+        from .forms import routes
 
         # register Blueprints
         app.register_blueprint(home.home_bp)
+        app.register_blueprint(routes.form_sign_in_bp)
         # app.register_blueprint(auth.auth_bp)
         # app.register_blueprint(admin.admin_bp)
 

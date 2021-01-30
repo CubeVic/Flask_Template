@@ -6,4 +6,15 @@
 
 {% block body %}
 <h1>hello world</h1>
+<h2> hello </h2>
+<hr>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<ul>
+    {% for message in messages %}
+    <li>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
 {% endblock %}

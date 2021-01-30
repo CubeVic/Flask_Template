@@ -23,3 +23,4 @@ class DevConfig(Config):
     DEBUG = True
     TESTING = True
     DATABASE_URI = environ.get('DEV_DATABASE_URI')
+    SECRET_KEY = environ.get('SECRET_KEY') or 'Secretkey'
